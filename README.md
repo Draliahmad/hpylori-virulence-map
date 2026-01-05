@@ -53,6 +53,32 @@ The following features were quantified:
 - Heatmap of virulence-associated features
 
 ---
+Methods
+1. Data Acquisition
+Genomic and virulence gene sequence data for Helicobacter pylori were obtained in FASTA format. The primary focus of the analysis was the cagA gene, a major virulence determinant associated with gastric inflammation and carcinogenesis. Genome annotation files (GFF format) were used to support gene-level feature extraction.
+2. Sequence Processing and Translation
+The nucleotide sequence of the cagA gene was translated into its corresponding protein sequence using standard genetic code translation. Protein length was calculated to assess structural characteristics, with particular emphasis on the C-terminal region known to mediate host–pathogen interactions.
+3. EPIYA Motif Identification
+EPIYA phosphorylation motifs within the CagA protein were identified using motif pattern matching. The positions of detected EPIYA motifs were recorded, and flanking amino acid sequences were extracted to capture the local biochemical context surrounding each motif. These motifs are critical for host cell signaling perturbation and pathogenicity.
+4. Virulence Feature Extraction
+Quantitative features associated with virulence were computed, including:
+Nucleotide sequence length
+Protein sequence length
+Number and positional distribution of EPIYA motifs
+Extracted features were structured into tabular formats (TSV files) to enable downstream statistical analysis and visualization.
+5. Statistical Analysis
+Descriptive statistics were calculated to summarize virulence feature distributions. Correlation analysis was performed to evaluate relationships between extracted features, allowing identification of coordinated or independent virulence-associated properties.
+6. Data Visualization
+Visualization was performed using Python-based plotting libraries. The following graphical representations were generated:
+Heatmaps to display virulence feature distributions and correlations
+Bar plots to illustrate protein length characteristics
+Distribution plots to summarize gene length variability
+All figures were exported as high-resolution PNG files suitable for publication and repository display.
+7. Computational Environment
+All analyses were conducted on macOS using the Terminal environment. The workflow integrated Python (version 3), Biopython for sequence manipulation, Pandas for data handling, and Matplotlib for visualization. Standard UNIX command-line utilities (e.g., grep, sed, wc) were used for lightweight preprocessing.
+8. Reproducibility
+The complete analysis pipeline, including raw data, processed files, scripts, and figures, is publicly available via GitHub to ensure transparency and reproducibility.
+
 ## Results & Visualizations
 
 ### Virulence Feature Heatmap
