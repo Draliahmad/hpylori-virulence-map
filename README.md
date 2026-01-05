@@ -53,6 +53,19 @@ The following features were quantified:
 - Heatmap of virulence-associated features
 
 ---
+## Results & Visualizations
+
+### Virulence Feature Heatmap
+![Virulence feature heatmap](figures/virulence_feature_heatmap.png)
+
+### Gene Length Distribution
+![Virulence gene lengths](figures/virulence_gene_lengths.png)
+
+### Protein Length Bar Plot
+![Protein length barplot](figures/protein_length_barplot.png)
+
+### Feature Correlation Heatmap
+![Virulence correlation](figures/virulence_correlation.png)
 
 ## Key Results
 - **CagA contains 2 EPIYA motifs**, consistent with highly virulent *H. pylori* strains.
