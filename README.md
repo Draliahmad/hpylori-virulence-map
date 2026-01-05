@@ -134,7 +134,7 @@ This project demonstrates how bioinformatics and data science techniques can be 
 ## Author
 Dr Ali Ahmad
 MBBS,
-MSc Clinical & Molecular Microbiology 
+MSc Clinical & Molecular Microbiology, 
 MSc Drug Discovery & Development  
 
 
